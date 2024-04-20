@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assests/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+</head>
+<body>
+    <!-- HEllo!!/ -->
+    
+    <nav id="desktop-nav">
+        <div class="logo">Ujwal Shisode</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ujwal Shisode</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+
+        <div class="section_pic-container">
+            <img src="./assests/me1.png" alt="Ujwals profile pic" />
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello i am</p>
+            <h1 class="title">Ujwal Shisode</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assests/li.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ujjwal-shisode'">
+                <img src="./assests/gh.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/ujwal0077'">
+                <img src="./assests/lc.png" alt="LeetCode Profile" class="icon" onclick="location.href='https://leetcode.com/Ujwal_shisode/'">
+                <img src="./assests/cn.png" alt="Coding Ninjas Profile" class="icon" onclick="location.href='https://www.naukri.com/code360/profile/godwin'">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1  class="title">About Me</h1>
+        <div class="section_container">
+            <div class="section_pic_container">
+                <img src="./assests/bc.png"  alt="Mine pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assests/experience.png" class="icon" >
+                        <h3>experience</h3>
+                            <p>2+years<br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assests/education.png" class="icon">
+                        <h3>Education</h3>
+                        <p>Btech Bachelors Degree </p>
+                    </div>
+                </div>
+            <div class="text-container">
+                <p>
+                    Enthusiastic IT student with a passion for continuous learning. Proﬁcient in C, C++, SQL, and JavaScript, with hands-on experience in web development projects. Beyond the screen, you'll often ﬁnd me on the ﬁeld, indulging in my love for football.
+                </p>
+
+            </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience_details_container">
+            <div class="about-container">
+                <div class="details-container" >
+                    <h2 class="experience-subtitle">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>Html</h3>
+                                <p>Experienced</p>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Basic</p>
+
+                            </div>
+                        </article>
+                    </div>
+                    
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-subtitle">Developer Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>VS Code</h3>
+                                <p>Experienced</p>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>Replit</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png"  class="icon">
+                            <div>
+                                <h3>Oracle</h3>
+                                <p>Intermediate</p>
+
+                            </div>
+                        </article>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience_details_container">
+            <div class="about-container">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assests/Project1.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-subtitle project-title">GymHub</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/ujwal0077/GYM-MANAGEMENT-SYSTEM'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assests/mts.png"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-subtitle project-title">Movie Ticket System</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/ujwal0077/GYM-MANAGEMENT-SYSTEM'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assests/Project1.png"
+                    alt="Project 3"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-subtitle project-title">DeepFake Detection</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'"
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./assests/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+          />
+        
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assests/email.png" class="icon contact-icon email-icon">
+                <p><a href="mailto:ujjwalshisode0077@gmail.com">ujjwalshisode0077@gmail.com</a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assests/whatsapp.png" class="icon contact-icon">
+                <p><a href="tel:8999154826">8999154826</a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assests/insta.png" class="icon contact-icon">
+                <p><a href="https://www.instagram.com/ujwalshisode_77/">Instagram</a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assests/tele.png" class="icon contact-icon">
+                <p><a href="https://t.me/+918999154826">Telegram</a> </p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"> </script>
+</body>
+</html>
